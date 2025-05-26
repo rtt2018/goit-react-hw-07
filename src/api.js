@@ -1,0 +1,1 @@
+const URL = 'https://6834b1eacd78db2058bf12f7.mockapi.io/'

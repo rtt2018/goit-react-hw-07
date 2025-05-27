@@ -10,7 +10,7 @@ export default function ContactList() {
   return (
     <div className={css.container}>
       {allContacts.length === 0
-        ? <p>Dear Mentor, no such contact found, try again! )))</p>
+        ? <p>Please, vait. Loading contacts...</p>
         : (<ul className={css.contactList}>
           {allContacts.map(contact => {
             return (

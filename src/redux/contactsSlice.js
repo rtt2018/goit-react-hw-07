@@ -5,6 +5,8 @@ import { selectNameFilter } from "./filtersSlice";
 
 const handlePending = (state) => {
     state.loading = true;
+    state.error = null;
+
 }
 
 const handleRejected = (state, action) => {

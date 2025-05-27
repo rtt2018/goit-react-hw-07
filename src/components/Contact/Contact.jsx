@@ -13,7 +13,7 @@ export default function Contact({ people }) {
   }
 
   return (
-    <>
+    <li className={css.listItem}>
       <div>
         <div className={css.contactDataWrapper}>
           <FaUserLarge />
@@ -25,6 +25,6 @@ export default function Contact({ people }) {
         </div>
       </div>
       <button onClick={handleClick} className={css.contactDeleteButton} type='button'>Delete</button>
-    </>
+    </li>
   );
 }

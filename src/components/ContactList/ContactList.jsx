@@ -15,6 +15,7 @@ export default function ContactList() {
         {allContacts.map(contact => <Contact people={contact} key={contact.id} />)}
       </ul>)
       }
+      {allContacts.length === 0 && !isLoading && <p className={css.noContacts}>No contacts found. Please, use some other search phrase</p>}
     </div>
   );
 }
